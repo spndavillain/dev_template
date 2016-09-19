@@ -1,0 +1,65 @@
+/*******************************************************************************
+ *                    Fonts to be used in this project                         *
+ *******************************************************************************/
+@import 'https://fonts.googleapis.com/css?family=Playfair+Display|Raleway';
+/*              Example                   
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Playfair Display', serif;
+*/
+
+/*******************************************************************************
+ *                            Home Page Styling                                *
+ *******************************************************************************/
+
+.homepage-image {
+    padding:0px;
+}
+.cardiologo-img {
+
+}
+.cardio-site-title {
+    font-family: 'Playfair Display', serif;
+    position: relative;
+    text-align: center;
+    bottom: 531px;
+    color: white;
+    font-size: 50px;
+}
+.cardio-paragraph p{
+    padding: 0px 200px 0px 200px;
+    font-size: 23px;
+}
+
+.homepage-image img {
+    width: 100%;
+    margin-bottom: -100px;
+}
+.cardiologo-img img{
+    height: 100px;
+}
+/*******************************************************************************
+ *                            Nav bar styling                                  *
+ *******************************************************************************/
+
+.affix {
+    top: 0;
+    width: 100%;
+  }
+
+.affix + .container-fluid {
+    padding-top: 70px;
+  }
+
+.size-off-the-navbar {
+    padding-top: 25px;
+    height: 100px;
+    text-align: center;
+    opacity: 0.8;
+}
+
+.size-off-the-navbar .nav {
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+
+}
