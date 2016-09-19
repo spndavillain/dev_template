@@ -8,8 +8,8 @@
                 <span class="icon-bar"></span>
             </button>
         </div>
-        <div class="collapse navbar-collapse" id="myNavbar">
-            <ul class="nav navbar-nav">
+        <div class="collapse navbar-collapse " id="myNavbar">
+            <ul class="nav navbar-nav main-menu-links">
                 <li><a href="#">SOBRE NÓS</a></li>
                 <li><a href="#">CARTÃO CORAÇÃO</a></li>
                 <li><a href="#">CONTACTOS</a></li>

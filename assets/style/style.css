@@ -36,9 +36,12 @@
 .homepage-image img {
     width: 100%;
     margin-bottom: -100px;
+    height: auto;
+    /*height: 980px; */
 }
-.cardiologo-img img{
-    height: 100px;
+.cardiologo-img img {
+/*    height: 100px;*/
+width: 100%;
 }
 /*******************************************************************************
  *                            Nav bar styling                                  *
@@ -64,15 +67,28 @@
     display: inline-block;
     float: none;
     vertical-align: top;
-
 }
+
+.main-menu-links {
+    font-family: 'Raleway';
+    color: #964c36;
+}
+
 /*-----------------------------------------------------------------------------*
  |                                                                             |
- |              Media Query for resposive view                                 |
+ |                        Media Query for resposive view                       |
  |                                                                             |
  *-----------------------------------------------------------------------------*/
 /*@media screen and (max-width: 1200px) {
     .cardiologo-img {
         max-width: 90%;
+    }
+}*/
+/*@media screen and (max-width: 1200px) {
+    .homepage-image img {
+        width: 100%;
+    }
+    .cardiologo-img img {
+        max-width: 80%;
     }
 }*/

@@ -20,9 +20,9 @@
         <div class="col-md-4 cardio-site-title">
             
         </div>
-        <!-- <div class="col-md-2 cardiologo-img">
+         <div class="col-md-2 col-sm-2 col-xs-2 cardiologo-img">
             <img src="<?= base_url("assets/img/main-site/logo.png"); ?>" alt="">
-        </div> -->
+        </div> 
     </div>
     
 </div>
