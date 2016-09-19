@@ -17,10 +17,14 @@
         <div class="col-md-12 col-sm-12 col-xs-12 homepage-image">
             <img src="<?= base_url("assets/img/main-site/main_image_smaller.jpg"); ?>" alt="" >
         </div>
-        <!--<div class="cardiologo-img">
+        <div class="col-md-4 cardio-site-title">
+            
+        </div>
+        <!-- <div class="col-md-2 cardiologo-img">
             <img src="<?= base_url("assets/img/main-site/logo.png"); ?>" alt="">
-        </div>-->
+        </div> -->
     </div>
+    
 </div>
 
 

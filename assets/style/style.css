@@ -15,7 +15,10 @@
     padding:0px;
 }
 .cardiologo-img {
-
+    position: absolute;
+    left: 45%;
+    top: 15%;
+    
 }
 .cardio-site-title {
     font-family: 'Playfair Display', serif;
@@ -63,3 +66,13 @@
     vertical-align: top;
 
 }
+/*-----------------------------------------------------------------------------*
+ |                                                                             |
+ |              Media Query for resposive view                                 |
+ |                                                                             |
+ *-----------------------------------------------------------------------------*/
+/*@media screen and (max-width: 1200px) {
+    .cardiologo-img {
+        max-width: 90%;
+    }
+}*/
