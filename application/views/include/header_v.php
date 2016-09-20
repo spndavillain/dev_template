@@ -14,15 +14,26 @@
 
 <div class="container-fluid">
     <div class="row">
-        <div class="col-md-12 col-sm-12 col-xs-12 homepage-image">
+        <div class="col-md-12 homepage-image">
+
             <img src="<?= base_url("assets/img/main-site/main_image_smaller.jpg"); ?>" alt="" >
+
+            <div class="cardiologo-img">
+                <img src="<?= base_url("assets/img/main-site/logo.png"); ?>" alt="">
+            </div>
+            <div class="cardio-site-title">
+                <p>A sua</p>
+                <p>saúde cardiovascular</p>
+            </div>
         </div>
-        <div class="col-md-4 cardio-site-title">
+        
+         <!--<div class="col-md-2 col-sm-2 col-xs-2 cardiologo-img">
             
-        </div>
-         <div class="col-md-2 col-sm-2 col-xs-2 cardiologo-img">
-            <img src="<?= base_url("assets/img/main-site/logo.png"); ?>" alt="">
         </div> 
+        <div class="col-md-2 cardio-site-title">
+            <p>A sua</p>
+            <p>saúde cardiovascular</p>
+        </div>-->
     </div>
     
 </div>
