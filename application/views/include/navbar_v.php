@@ -1,4 +1,3 @@
-
 <nav class="navbar navbar-default size-off-the-navbar" data-spy="affix" data-offset-top="850">
     <div class="container-fluid">
         <div class="navbar-header">
