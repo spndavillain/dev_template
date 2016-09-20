@@ -52,20 +52,25 @@
 <!-- Begin Intro Section -->
     <section id="intro">
         <div id="parallax-1" class="parallax">
-            <div class="bcg skrollable skrollable-between" data-anchor-target="" data-center="" data-top-bottom="" data-bottom-top="">
+            <div class="bcg skrollable skrollable-between" data-anchor-target="#parallax-1" data-center="background-position: 50% 0px;" data-top-bottom="background-position: 50% -100px;" data-bottom-top="background-position: 50% 100px;">
                 <div class="intro-body text-center">
                     <div class="container">
                         <div class="row">
                             <div class="col-md-12 intro-content">
                                 <div class="logo">
                                     <img src="<?= base_url("assets/img/main-site/logo.png");?>">
+                                    <!-- //.Cardio logo -->
                                 </div>
-                                <!-- //.logo -->
-
-                                <div class="intro-text text-center">
-                                    <h2>Clean, Awesome and Multi-Purpose.</h2>
-
-                                    <p class="lead">Responsive Multi-Purpose Theme For Running Serious Business</p>
+                                
+                                
+                                <div class="intro-text text-center hidden-xs">
+                                    <h2>A sua</h2>
+                                    <h2>saúde cardiovascular</h2>
+                                    <hr class="line-between-content">
+                                    <p class="lead">O CONHECIMENTO DOS FATORES DE RISCO E O DESENVOLVIMENTO DE NOVAS TERAPÊUTICAS
+                                                    SÃO FUNDAMENTAIS NA PREVENÇÃO DA DOENÇA CARDIOVASCULAR.
+                                                    VENHA FAZER O RASTREIO DA DOR TORÁXICA.
+                                    </p>
                                 </div>
                                 <!-- //.intro-text -->
 
