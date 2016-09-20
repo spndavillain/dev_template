@@ -1,5 +1,5 @@
 
-<nav class="navbar navbar-default size-off-the-navbar" data-spy="affix" data-offset-top="880">
+<nav class="navbar navbar-default size-off-the-navbar" data-spy="affix" data-offset-top="850">
     <div class="container-fluid">
         <div class="navbar-header">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
