@@ -766,11 +766,11 @@ span.navbar-trigger-close a:hover {
   }
 
 .size-off-the-navbar {
-    padding-top: 27px;
-    height: 99px;
+    padding-top: 15px;
+    height: 80px;
     text-align: center;
     opacity: 0.8;
-    bottom: 99px;
+    bottom: 80px;
     border-radius: 0;
 }
 
@@ -780,11 +780,10 @@ span.navbar-trigger-close a:hover {
     vertical-align: top;
 }
 
-.main-menu-links {
+.navbar-default .navbar-nav>li>a {
     font-family: 'Raleway';
     color: #964c36;
 }
-
 
 /*-----------------------------------------------------------------------------*
  |                                                                             |
