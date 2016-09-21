@@ -73,7 +73,7 @@
                                 </div>
                                 <!-- //.intro-text -->
 
-                                <div class="page-scroll">
+                                <div class="page-scroll hidden-xs ">
                                     <a href="#who-we-are" class="btn btn-lg">Ver mais</a>
                                 </div>
                                 <!-- //.page-scroll -->

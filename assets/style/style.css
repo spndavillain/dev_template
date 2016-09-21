@@ -577,7 +577,6 @@ span.navbar-trigger-close a:hover {
  *******************************************************************************/
 #intro .intro-body .intro-text {
     font-family: 'Raleway';
-    padding-top: 230px;
 }
 
 #intro .intro-body .intro-text h2 {
@@ -604,13 +603,13 @@ span.navbar-trigger-close a:hover {
 
 @media (max-width: 991px) {
     #intro .intro-body .intro-text {
-        padding-top: 105px;
+        margin-top: 50px;
     }
 }
 
 @media (min-width: 768px) {
     #intro .intro-body .intro-text h2 {
-        font-size: 55px;
+        font-size: 45px;
     }
 }
 
@@ -625,6 +624,12 @@ span.navbar-trigger-close a:hover {
         font-size: 26px;
     }
 }
+@media and (min-width: 1151px) {
+    #intro .intro-body .intro-text {
+        margin-top: 50px;
+    }
+}
+
 /*******************************************************************************
  *                  The Read More Button In The Main Menu                      *
  *******************************************************************************/
@@ -639,17 +644,21 @@ span.navbar-trigger-close a:hover {
     color: white;
 }
 
+.hover-button {
+    background-color: red;
+}
+
 @media (min-width: 768px) {
   #intro .intro-body .page-scroll {
-    margin-top: 50px;
+
   }
 }
 #intro .intro-body .page-scroll a.btn {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Raleway';
 }
 @media (min-width: 768px) {
   #intro .intro-body .page-scroll a.btn {
-    padding: 10px;
+    padding: 10px 30px 10px 30px;
     font-size: 20px;
   }
 }
@@ -741,10 +750,12 @@ span.navbar-trigger-close a:hover {
   }
 
 .size-off-the-navbar {
-    padding-top: 25px;
-    height: 100px;
+    padding-top: 15px;
+    height: 80px;
     text-align: center;
     opacity: 0.8;
+/*    bottom: 80px;*/
+    border-radius: 0;
 }
 
 .size-off-the-navbar .nav {
@@ -757,6 +768,7 @@ span.navbar-trigger-close a:hover {
     font-family: 'Raleway';
     color: #964c36;
 }
+
 
 /*-----------------------------------------------------------------------------*
  |                                                                             |
