@@ -62,12 +62,11 @@
                                     <!-- //.Cardio logo -->
                                 </div>
                                 
-                                
                                 <div class="intro-text text-center hidden-xs">
-                                    <h2>A sua</h2>
+                                    <h2 >A sua</h2>
                                     <h2>saúde cardiovascular</h2>
                                     <hr class="line-between-content">
-                                    <p class="lead">O CONHECIMENTO DOS FATORES DE RISCO E O DESENVOLVIMENTO DE NOVAS TERAPÊUTICAS
+                                    <p class="lead hidden-sm">O CONHECIMENTO DOS FATORES DE RISCO E O DESENVOLVIMENTO DE NOVAS TERAPÊUTICAS
                                                     SÃO FUNDAMENTAIS NA PREVENÇÃO DA DOENÇA CARDIOVASCULAR.
                                                     VENHA FAZER O RASTREIO DA DOR TORÁXICA.
                                     </p>
@@ -75,7 +74,7 @@
                                 <!-- //.intro-text -->
 
                                 <div class="page-scroll">
-                                    <a href="#who-we-are" class="btn btn-lg btn-rj">Learn More</a>
+                                    <a href="#who-we-are" class="btn btn-lg">Ver mais</a>
                                 </div>
                                 <!-- //.page-scroll -->
                             </div>

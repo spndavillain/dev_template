@@ -10,49 +10,7 @@
 /*******************************************************************************
  *                            Home Page Styling                                *
  *******************************************************************************/
-/*-----------------------------------------------------------------------
-/*  Theme Name  : Rinjani
-/*  Theme URI   : https://wrapbootstrap.com/theme/rinjani-multi-purpose-one-page-theme-WB035T192
-/*  Description : Multi-Purpose One Page Theme
-/*  Version     : 1.8
-/*  assets/css/rinjani.css
-/*-----------------------------------------------------------------------
 
-1. GLOBAL STYLES
-
-2. ANIMATION DELAY
-
-3. PAGE LOADER
-
-4. NAVBAR
-    4.1 NAVBAR - CENTER MENU
-    4.2 NAVBAR - SIDE MENU
-
-5. INTRO SECTION
-
-6. WHO WE ARE SECTION
-
-7. FUN FACT SECTION
-
-8. OUR MAIN SKILLS SECTION
-
-9. QUOTE SECTION
-
-10. KEEP IN TOUCH SECTION
-
-11. MEET THE TEAM SECTION
-
-12. TESTIMONIALS SECTION
-
-13. COMING SOON SECTION
-
-14. CONTACT US SECTION
-
-15. MAP
-
-16. FOOTER
-
------------------------------------------------------------------------*/
 
 
 /*---------------------------------------------------------------------*/
@@ -618,35 +576,69 @@ span.navbar-trigger-close a:hover {
  *                   The text after the cardio logo                            *                <----------------Text after content
  *******************************************************************************/
 #intro .intro-body .intro-text {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Raleway';
+    padding-top: 230px;
 }
 
 #intro .intro-body .intro-text h2 {
-  color: #fff;
-  font-size: 50px;
-  font-weight: 700;
+    color: #fff;
+    font-size: 50px;
+    font-family: 'Playfair Display';
+    margin-bottom: 0;
 }
+
+#intro .intro-body .intro-text h2:first {
+    font-weight: 200;
+}
+
+#intro .intro-body .intro-text h2:nth-child(2) {
+    font-weight: 600;
+}
+
+.line-between-content {
+    border: 2px solid white;
+    width: 20%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+@media (max-width: 991px) {
+    #intro .intro-body .intro-text {
+        padding-top: 105px;
+    }
+}
+
 @media (min-width: 768px) {
-  #intro .intro-body .intro-text h2 {
-    font-size: 55px;
-  }
+    #intro .intro-body .intro-text h2 {
+        font-size: 55px;
+    }
 }
+
 #intro .intro-body .intro-text p.lead {
-  color: #fff;
-  font-size: 22px;
-  font-weight: 400;
+    color: #fff;
+    font-size: 22px;
+    font-weight: 400;
 }
+
 @media (min-width: 768px) {
-  #intro .intro-body .intro-text p.lead {
-    font-size: 26px;
-  }
+    #intro .intro-body .intro-text p.lead {
+        font-size: 26px;
+    }
 }
 /*******************************************************************************
- *                                                                             *
+ *                  The Read More Button In The Main Menu                      *
  *******************************************************************************/
 #intro .intro-body .page-scroll {
-  margin-top: 30px;
+    margin-top: 30px;
 }
+
+.page-scroll a {
+    border: 1px solid white;
+    text-decoration: none;
+    border-radius: 0px;
+    color: white;
+}
+
 @media (min-width: 768px) {
   #intro .intro-body .page-scroll {
     margin-top: 50px;
@@ -657,8 +649,8 @@ span.navbar-trigger-close a:hover {
 }
 @media (min-width: 768px) {
   #intro .intro-body .page-scroll a.btn {
-    padding: 20px 25px;
-    font-size: 22px;
+    padding: 10px;
+    font-size: 20px;
   }
 }
 
@@ -738,7 +730,7 @@ span.navbar-trigger-close a:hover {
 /*******************************************************************************
  *                            Nav bar styling                                  *
  ******************************************************************************
-
+*/
 .affix {
     top: 0;
     width: 100%;
