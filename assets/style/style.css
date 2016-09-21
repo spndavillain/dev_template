@@ -650,8 +650,13 @@ span.navbar-trigger-close a:hover {
     color: white;
 }
 
+.page-scroll a:visited {
+    text-decoration: none;
+}
+
 .hover-button {
-    background-color: black;
+    background-color: white;
+    color: black;
 }
 
 @media (min-width: 690px) and (max-width: 891px) {
@@ -677,7 +682,7 @@ span.navbar-trigger-close a:hover {
 
 @media (min-width: 1152px) {
     #intro .intro-body .page-scroll {
-        margin-top: 95px;
+        margin-top: 130px;
     }
 }
 

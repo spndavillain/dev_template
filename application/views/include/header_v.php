@@ -50,13 +50,13 @@
         
     </div>-->
 <!-- Begin Intro Section -->
-    <section id="intro">
+    <section id="intro" >
         <div id="parallax-1" class="parallax">
             <div class="bcg skrollable skrollable-between" data-anchor-target="#parallax-1" data-center="background-position: 50% 0px;" data-top-bottom="background-position: 50% -100px;" data-bottom-top="background-position: 50% 100px;">
                 <div class="intro-body text-center">
                     <div class="container">
                         <div class="row">
-                            <div class="col-md-12 intro-content">
+                            <div class="col-md-12 col-lg-12 intro-content">
                                 <div class="logo">
                                     <img src="<?= base_url("assets/img/main-site/logo.png");?>">
                                     <!-- //.Cardio logo -->
