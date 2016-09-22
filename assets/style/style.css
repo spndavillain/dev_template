@@ -769,6 +769,9 @@ span.navbar-trigger-close a:hover {
 .affix + .container-fluid {
     padding-top: 70px;
   }
+.navbar {
+    position: static;
+}
 
 .size-off-the-navbar {
     padding-top: 15px;
@@ -777,7 +780,6 @@ span.navbar-trigger-close a:hover {
     opacity: 0.8;
     bottom: 80px;
     border-radius: 0;
-    position: static;
 }
 
 .size-off-the-navbar .nav {
