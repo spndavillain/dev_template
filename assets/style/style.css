@@ -514,7 +514,7 @@ span.navbar-trigger-close a:hover {
   height: 100%;
 }
 
-@media (min-width: 1280px) {
+@media (min-width: 992px) {
   #intro {
     height: 100%;
     padding: 0px;
@@ -595,8 +595,8 @@ span.navbar-trigger-close a:hover {
 .line-between-content {
     border: 2px solid white;
     width: 20%;
-    margin-top: 40px;
-    margin-bottom: 40px;
+    margin-top: 4%;
+    margin-bottom: 4%;
 }
 
 @media (max-width: 991px) {
@@ -631,7 +631,7 @@ span.navbar-trigger-close a:hover {
 
 @media (min-width: 1152px) {
     #intro .intro-body .intro-text {
-        margin-top: 165px;
+        margin-top: 10%;
     }
 }
 
@@ -682,7 +682,7 @@ span.navbar-trigger-close a:hover {
 
 @media (min-width: 1152px) {
     #intro .intro-body .page-scroll {
-        margin-top: 130px;
+        margin-top: 7%;
     }
 }
 
@@ -777,6 +777,7 @@ span.navbar-trigger-close a:hover {
     opacity: 0.8;
     bottom: 80px;
     border-radius: 0;
+    position: static;
 }
 
 .size-off-the-navbar .nav {
@@ -789,6 +790,7 @@ span.navbar-trigger-close a:hover {
     font-family: 'Raleway';
     color: #964c36;
 }
+
 
 /*-----------------------------------------------------------------------------*
  |                                                                             |
